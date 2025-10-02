@@ -7,11 +7,17 @@ int main() {
     int num1 = 5;
     int num2 = 10;
     int sum;
+
+    // Function call
     sum = calculateSum(num1, num2);
+
+    // Output
     printf("Sum = %d\n", sum);
+
     return 0;
 }
-int calculateSum(int a, int b) 
-{
+
+// Function definition
+int calculateSum(int a, int b) {
     return a + b;
 }
