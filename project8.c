@@ -1,4 +1,5 @@
 #include <stdio.h>
+<<<<<<< HEAD
 
 // Function declaration
 int calculateSum(int a, int b);
@@ -14,4 +15,9 @@ int main() {
 int calculateSum(int a, int b) 
 {
     return a + b;
+=======
+ int main (){
+printf("hello, world);
+return o;
+>>>>>>> babc629f865cb4da135ed45dbdfce51f215879f2
 }
